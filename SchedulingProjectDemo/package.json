@@ -1,0 +1,23 @@
+{
+  "name": "schedulingprojectdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "node-cron": "^3.0.2",
+    "node-schedule": "^2.1.0",
+    "shelljs": "^0.8.5"
+  }
+}

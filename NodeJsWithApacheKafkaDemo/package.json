@@ -1,0 +1,27 @@
+{
+  "name": "nodejswithapachekafkademo",
+  "version": "1.0.0",
+  "description": "nodejswithapachekafkademo",
+  "main": "index.js",
+  "scripts": {
+    "dev:producer": "node ./producer/index.js",
+    "dev:consumer": "node ./consumer/index.js",
+    "start:producer": "nodemon ./producer/index.js",
+    "start:consumer": "nodemon ./consumer/index.js"
+  },
+  "keywords": [],
+  "author": "Pritam Ray",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "kafkajs": "^2.1.0",
+    "log4js": "^6.6.1",
+    "mongoose": "^6.5.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
